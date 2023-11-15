@@ -11,7 +11,8 @@ buttonToggle.addEventListener("click", function () {
   toggleProperty(boxAdder, "hidden");
 });
 
-/* casella diventa rossa al click */
+const selectDiff = document.getElementById("difficolta");
+/* casella diventa azzurra al click */
 for (let i = 0; i < 100; i++) {
   const boxes = document.createElement("div");
   boxes.classList.add("box");
