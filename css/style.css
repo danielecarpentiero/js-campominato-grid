@@ -74,5 +74,6 @@ main {
 }
 
 .color {
-  background-color: red;
+  background-color: skyblue;
+  transition: all 0.2s;
 }
