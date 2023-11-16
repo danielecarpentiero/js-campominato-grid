@@ -21,6 +21,6 @@ for (let i = 0; i < 100; i++) {
   boxAdder.append(boxes);
   boxes.addEventListener("click", function () {
     toggleProperty(boxes, "color");
-    console.log("hai cliccato sulla casella.");
+    console.log(`hai cliccato sulla casella numero ${i}`);
   });
 }
